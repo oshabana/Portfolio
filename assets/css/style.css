@@ -495,23 +495,49 @@ ul {
     margin-top: -5px;
 }
 
-.social-links {
-    float: none;
-    text-align: center;
-    padding-top: 10px;
-}
-
-.social-link {
-    margin-right: 15px;
-}
 
 .strips {
     position: absolute;
     max-width: 1280px;
 }
 
-.project-card{
-    display: grid;
+.thumbnail{
+    border: 1px solid black;
+    padding: 30px;
+}
 
+.project-card{
     
+}
+
+.white-header{
+    text-align: left; 
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.white-paragraph{
+    color: white;
+    font-size: 20px;
+    text-align: left; 
+    
+}
+.white-paragraphs{
+    display: inline-block;
+    
+}
+.resume{
+    background-color: rgb(175, 51, 51);
+
+}
+
+.resume-tab{
+    
+}
+
+.resume-pdf{
+    width: 50%
+
 }
