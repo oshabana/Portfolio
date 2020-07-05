@@ -511,6 +511,7 @@ ul {
 }
 
 .project-card{
-    display: inline;
+    display: grid;
+
     
 }
