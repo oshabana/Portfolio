@@ -241,7 +241,7 @@ body {
     max-width: 1400px;
     margin: auto;
     overflow: hidden;
-
+    background-color: white;
 }
 
 .white-section-text {
@@ -253,6 +253,7 @@ body {
 
 .imac-section-header {
     padding-bottom: 35px;
+
 }
 
 .imac-section-desc {
@@ -507,4 +508,9 @@ ul {
 .strips {
     position: absolute;
     max-width: 1280px;
+}
+
+.project-card{
+    display: inline;
+    
 }
