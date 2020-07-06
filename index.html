@@ -42,9 +42,13 @@
         <!-- Hero-Section
           ================================================== -->
 
-        <div id="nav-panel" class="hero row">
+        <div id="nav-panel-resume" class="hero row">
             <div class="hero-right col-sm-6 col-sm-6">
-                <h1 class="header-headline bold"> Web Developer <br></h1>
+                <h1 class="header-headline bold"> A Passionate Developer <br></h1>
+                <p class="header-headline bold">
+                    Filler text
+                    
+                    <br></p>
                 <h3 class="header-headline bold"> Click to navigate <br></h3>
                 <h4 class="header-running-text light"></h4>
                 <a href="#features">
@@ -56,6 +60,9 @@
                 <a href="#features-resume">
                     <button class="hero-btn">Resume</button>
                 </a>
+                <a href="#features-contact">
+                    <button class="hero-btn">Contact</button>
+                </a>
                
              
             </div><!--hero-left-->
@@ -63,8 +70,6 @@
             <div class="col-sm-6 col-sm-6 ipad">
                 <img class="ipad-screen img-responsive" src="assets/images/screen.png"/>
             </div>
-
-            <div><img class="mouse" src="assets/images/mouse.svg"/></div>
 
         </div><!--hero-->
 
@@ -171,7 +176,12 @@
                 </div>
                 <h5 class="feature-head-text feature-no-display feature-display-last">Linux</h5>
             </div>
+            
         </div>
+        <br></br>
+        <a href="#nav-panel-resume">
+            <button class="btn">Back to Top</button>
+        </a>
     </div> <!--features-container-->
 </div> <!--features-section-->
 
@@ -192,17 +202,20 @@
                         <img src="https://images.sftcdn.net/images/t_app-cover-l,f_auto/p/befbcde0-9b36-11e6-95b9-00163ed833e7/260663710/the-test-fun-for-friends-screenshot.jpg" alt="...">
                         <div class="caption">
                             <h3>Stock Portfolio Tracker</h3>
-                            <br></br>
+                            
                             <h4>Stack</h4>
                             <p>MongoDB</p>
                             <p>Express</p>
                             <p>React</p>
                             <p>Nodejs</p>
                             <h4>Features</h4>
-                            <br></br>
-                            <p>User authentication using react-cookies</p>
-                            <p></p>
-                          <p><a href="#" class="btn btn-primary" role="button">Live</a> <a href="https://github.com/oshabana/financial-portfolio" class="btn btn-default" role="button">Github</a></p>
+                            <div class="center">
+                                <p class="bullets">User accounts using react-cookies and server-side </p>
+                                <p class="bullets">External API calls to grab price data</p>
+                                <p class="bullets">REST API to add additional price-asset calculations and features </p>
+                                <p class="bullets"></p>
+                            </div>
+                          <p><a href="#" class="btn btn-primary" target="_blank" role="button">Live</a> <a href="https://github.com/oshabana/financial-portfolio" class="btn btn-default" target="_blank" role="button">Github</a></p>
                         </div>
                       </div>
                     </div>
@@ -214,7 +227,7 @@
                         <div class="caption">
                             <h3>Public Covid-19 Shopping app</h3>
                             <p>Stack: MongoDB, Express, React and Nodejs</p>
-                          <p><a href="#" class="btn btn-primary" role="button">Live</a> <a href="#" class="btn btn-default" role="button">Github</a></p>
+                          <p><a href="#" class="btn btn-primary" target="_blank" role="button">Live</a> <a href="#" class="btn btn-default" target="_blank" role="button">Github</a></p>
                         </div>
                       </div>
                     </div>
@@ -226,7 +239,7 @@
                         <div class="caption">
                             <h3>React Frontend Library</h3>
                             <p>Stack: React</p>
-                          <p> <a href="#" class="btn btn-default" role="button">Github</a></p>
+                          <p> <a href="#" class="btn btn-default" target="_blank" role="button">Github</a></p>
                         </div>
                       </div>
                     </div>
@@ -237,10 +250,14 @@
                         <div class="caption">
                           <h3>Sentiment Analyzer</h3>
                           Stack: Python
-                          <p> <a href="https://github.com/oshabana/scenti" class="btn btn-default" role="button">Github</a></p>
+                          <p> <a href="https://github.com/oshabana/scenti" target="_blank" class="btn btn-default" role="button">Github</a></p>
                         </div>
                       </div>
                     </div>
+                    <br></br>
+            <a href="#nav-panel-resume">
+                <button class="btn ">Back to Top</button>
+            </a>
             </div>
         </div>
     </div>
@@ -248,7 +265,17 @@
 
 
 <div id="features-resume" class="container-fl features-section resume">
-        <div class="row">
+    
+    
+    <div class="row">
+        <div class="col-sm-8 col-md-10 col-lg-12 white-paragraphs">
+            <iframe class="resume-pdf" src="./My_Resume.pdf"></iframe>
+        </div>
+        <div class="col-sm-8 col-md-10 col-lg-12 white-paragraphs">
+            <a href="./My_Resume.pdf" target="_blank">
+                <button class="btn">Download</button>
+            </a>
+            <br></br>
             <p class="white-header">Education</p>
             <p class="white-paragraph">University of Toronto</p>
             <p class="white-paragraph">Bachelors of Science</p>
@@ -257,52 +284,57 @@
             <br></br>
             <h3 class="white-header">Degree Specific Course Work</h3>
             <br></br>
-            <div class="white-paragraphs">
 
-                <p class="white-header">GIS</p>
-                <p class="white-paragraph">Principles of Cartography</p>
-                <p class="white-paragraph">Spatial Data Science I</p>
-                <p class="white-paragraph">Spatial Data Science II</p>
-                <p class="white-paragraph">Geographic Information Processing</p>
-                <p class="white-paragraph">GIS and Remote Sensing Integration</p>
-                <p class="white-paragraph">Environmental Remote Sensing</p>
-                <p class="white-paragraph">Space-Time Data Analysis</p>
-                <br></br>
-                
-                <p class="white-header">Computer Science</p>
-                <p class="white-paragraph">Software Design</p>
-                <p class="white-paragraph">Software Tools and Systems Programming</p>
-                <p class="white-paragraph">Introduction to the Theory of Computation</p>
-                <p class="white-paragraph">Data Structures and Analysis</p>
-                <p class="white-paragraph">Programming on the Web</p>
-                <p class="white-paragraph">Introduction to Machine Learning</p>
-                <p class="white-paragraph">Neural Networks and Deep Learning</p>
-                <br></br>
-                
-                <p class="white-header">Mathematics</p>
-                <p class="white-paragraph">Introduction to Proofs</p>
-                <p class="white-paragraph">Differential & Integral Calculus</p>
-                <p class="white-paragraph">Linear Algebra I</p> 
-                <p class="white-paragraph">Linear Algebra II</p> 
-                <p class="white-paragraph">Multivariable Calculus</p>
-                <p class="white-paragraph">Groups and Symmetries</p>
-            </div>
-            <iframe class="resume-pdf" src="./My_Resume.pdf"></iframe>
-
-        
-        
+            <p class="white-header">GIS</p>
+            <p class="white-paragraph">Principles of Cartography</p>
+            <p class="white-paragraph">Spatial Data Science I</p>
+            <p class="white-paragraph">Spatial Data Science II</p>
+            <p class="white-paragraph">Geographic Information Processing</p>
+            <p class="white-paragraph">GIS and Remote Sensing Integration</p>
+            <p class="white-paragraph">Environmental Remote Sensing</p>
+            <p class="white-paragraph">Space-Time Data Analysis</p>
+            <br></br>
+            
+            <p class="white-header">Computer Science</p>
+            <p class="white-paragraph">Software Design</p>
+            <p class="white-paragraph">Software Tools and Systems Programming</p>
+            <p class="white-paragraph">Theory of Computation</p>
+            <p class="white-paragraph">Data Structures and Analysis</p>
+            <p class="white-paragraph">Programming on the Web</p>
+            <p class="white-paragraph">Machine Learning</p>
+            <p class="white-paragraph">Neural Networks and Deep Learning</p>
+            <br></br>
+            
+            <p class="white-header">Mathematics</p>
+            <p class="white-paragraph">Introduction to Proofs</p>
+            <p class="white-paragraph">Differential & Integral Calculus</p>
+            <p class="white-paragraph">Linear Algebra I</p> 
+            <p class="white-paragraph">Linear Algebra II</p> 
+            <p class="white-paragraph">Multivariable Calculus</p>
+            <p class="white-paragraph">Groups and Symmetries</p>
+            <br></br>
+            <a href="#nav-panel-resume">
+                <button class="btn">Back to Top</button>
+            </a>
+            
         </div>
+    </div>
     
 </div>
-
-<div class="bottom-section">
-
-
+<div id="features-contact" class="features-section white-section">
+    <h3 class="black-header">Contact Information</h3>
+    <a href="mailto:omarwshabana@gmail.com">
+        <p class="black-header" >omarwshabana@gmail.com</p>
+    </a>
+    <a href="tel:omarwshabana@gmail.com">
+        <p class="black-header">(416) 720-4872</p>
+    </a>
+    <br></br>
+    <a href="#nav-panel-resume">
+        <button class="btn ">Back to Top</button>
+    </a>
 </div>
-<!--blue-section-->
 
-<!-- Footer
-  ================================================== -->
 
 
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"

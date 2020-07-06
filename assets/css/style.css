@@ -82,17 +82,7 @@ body {
     padding-bottom: 60px;
 }
 
-.mouse {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 85%;
-    margin: auto;
-    padding-bottom: 40px;
-    text-align: center;
-    cursor: pointer;
-    transition: transform .4s ease;
-}
+
 
 .mouse:hover {
     transform: translateY(5px);
@@ -511,7 +501,7 @@ ul {
 }
 
 .white-header{
-    text-align: left; 
+
     color: white;
     font-size: 30px;
     font-weight: bold;
@@ -521,7 +511,7 @@ ul {
 .white-paragraph{
     color: white;
     font-size: 20px;
-    text-align: left; 
+    text-align: center; 
     
 }
 .white-paragraphs{
@@ -533,11 +523,20 @@ ul {
 
 }
 
-.resume-tab{
-    
+.resume-pdf{
+    margin-bottom: 50px;
+    width: 50%;
+    height: 100%;
 }
 
-.resume-pdf{
-    width: 50%
+.black-header{
+    color: black;
+  
+}
+.center{
+    align-content: center;
+}
 
+.bullet{
+    text-align: left;
 }
