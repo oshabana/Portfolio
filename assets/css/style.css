@@ -109,9 +109,9 @@ body {
 .hero-btn {
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
-    background-color: #25F18B;
+    background-color: rgb(216, 71, 99);
     border-radius: 10px;
-    border: 1px solid #25F18B;
+    
     width: 210px;
     height: 51px;
     color: white;
@@ -119,7 +119,7 @@ body {
 }
 
 .hero-btn:hover {
-    background-color: #6affb4;
+    
     color: white;
     border-radius: 20px;
     -webkit-box-shadow: -1px 9px 46px -17px rgba(43, 43, 43, 1);
@@ -151,7 +151,7 @@ body {
 }
 
 .features-section {
-    background-color: black;
+    background-color: rgb(216, 71, 99);
     padding-top: 40px;
     padding-bottom: 80px;
     text-align: center;
@@ -515,7 +515,7 @@ ul {
     
 }
 .resume{
-    background-color: rgb(175, 51, 51);
+    background-color: rgb(216, 71, 99);
     width: 100%;
 
 }
