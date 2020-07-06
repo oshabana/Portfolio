@@ -496,12 +496,8 @@ ul {
     padding: 30px;
 }
 
-.project-card{
-    
-}
 
 .white-header{
-
     color: white;
     font-size: 30px;
     font-weight: bold;
@@ -520,6 +516,7 @@ ul {
 }
 .resume{
     background-color: rgb(175, 51, 51);
+    width: 100%;
 
 }
 
