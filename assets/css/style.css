@@ -25,13 +25,13 @@ body {
     background: -webkit-linear-gradient(117deg, black, rgb(216, 71, 99));
     background: linear-gradient(117deg, black, rgb(216, 71, 99));
     background: -webkit-radial-gradient(black, black);
-    background: radial-gradient(white, white);
+    background: radial-gradient(black, black);
 
 }
 
 .bold {
     font-weight: bold;
-    color: black;
+    color: white;
 }
 
 .light {
@@ -52,7 +52,7 @@ body {
     padding-left: 0;
     padding-top: 5px;
     font-weight: bold;
-    color: black;
+    color: white;
     font-size: 30px;
     
 }
@@ -122,8 +122,8 @@ body {
 
 .hero-btn:hover {
     background-color: white;
-    
-    border-radius: 3px;
+    color: black;
+    border-radius: 9px;
     -webkit-box-shadow: -1px 9px 46px -17px rgba(43, 43, 43, 1);
     -moz-box-shadow: -1px 9px 46px -17px rgba(43, 43, 43, 1);
     box-shadow: -1px 9px 46px -17px rgba(43, 43, 43, 1);
