@@ -44,7 +44,7 @@ body {
     height: 100px;
     position: relative;
     z-index: 999;
-   
+
 }
 
 .logo {
@@ -54,8 +54,9 @@ body {
     font-weight: bold;
     color: white;
     font-size: 30px;
-    
+
 }
+
 .header-btn {
     background-color: #0ABCEB;
     border-radius: 10px;
@@ -111,18 +112,18 @@ body {
 .hero-btn {
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
-    background-color: black;
+    background-color: white;
     border-radius: 9px;
-    
     width: 210px;
     height: 51px;
-    color: white;
+    color: black;
+    font-weight: bold;
     margin: 30px auto;
 }
 
 .hero-btn:hover {
-    background-color: white;
-    color: black;
+    background-color: rgb(77, 75, 75);
+    color: white;
     border-radius: 9px;
     -webkit-box-shadow: -1px 9px 46px -17px rgba(43, 43, 43, 1);
     -moz-box-shadow: -1px 9px 46px -17px rgba(43, 43, 43, 1);
@@ -225,7 +226,7 @@ body {
 }
 
 .feature-img {
-  
+
     max-width: 50px;
 }
 
@@ -240,8 +241,7 @@ body {
     text-align: center;
 }
 
-.imac {
-}
+.imac {}
 
 .imac-section-header {
     padding-bottom: 35px;
@@ -303,68 +303,68 @@ body {
     max-width: 1280px;
 }
 
-.thumbnail{
+.thumbnail {
     border: 1px solid black;
     padding: 30px;
 }
 
 
-.white-header{
+.white-header {
     color: white;
     font-size: 30px;
     font-weight: bold;
 
 }
 
-.white-paragraph{
+.white-paragraph {
     color: white;
     font-size: 20px;
-    text-align: center; 
-    
+    text-align: center;
+
 }
-.white-paragraphs{
+
+.white-paragraphs {
     display: inline-block;
-    
+
 }
-.resume{
+
+.resume {
     background-color: black;
     width: 100%;
 
 }
 
-.resume-pdf{
+.resume-pdf {
     margin-bottom: 50px;
     width: 50%;
     height: 100%;
 }
 
-.black-header{
+.black-header {
     color: black;
-  
+
 }
-.center{
+
+.center {
     align-content: center;
 }
 
-.bullet{
+.bullet {
     text-align: left;
 }
 
 .top-button {
-	box-shadow:inset 0px 1px 0px 0px #ffffff;
-	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
-	background-color:#ffffff;
-	border-radius:6px;
-	border:1px solid #dcdcdc;
-	display:inline-block;
-	cursor:pointer;
-	font-family:Arial;
-	font-size:15px;
-	font-weight:bold;
-	padding:6px 24px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #ffffff;
+    box-shadow: inset 0px 1px 0px 0px #ffffff;
+    background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+    background-color: #ffffff;
+    border-radius: 6px;
+    border: 1px solid #dcdcdc;
+    display: inline-block;
+    cursor: pointer;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #ffffff;
 }
-
-
-
